@@ -1,0 +1,1 @@
+cmd_/home/vlad/uni/AK/lab7/AK_Lab7/hello.ko := ccache arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o /home/vlad/uni/AK/lab7/AK_Lab7/hello.ko /home/vlad/uni/AK/lab7/AK_Lab7/hello.o /home/vlad/uni/AK/lab7/AK_Lab7/hello.mod.o;  true
